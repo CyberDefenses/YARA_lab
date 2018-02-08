@@ -1,0 +1,68 @@
+{
+	"rulemap":
+		[
+			{
+				"rule": "chm_file",
+				"run":
+					[
+						"nonPE_embedded_exe"
+					]
+			},
+			{
+				"rule": "excel_file",
+				"run":
+					[
+						"nonPE_embedded_exe",
+						"office_fin4_dev"
+					]
+			},
+			{
+				"rule": "powerpoint_file",
+				"run":
+					[
+						"nonPE_embedded_exe",
+						"office_fin4_dev"
+					]
+			},
+			{
+				"rule": "word_file",
+				"run":
+					[
+						"nonPE_embedded_exe",
+						"office_fin4_dev"
+					]
+			},
+			{
+				"rule": "pe_file",
+				"run":
+					[
+						"Derusbi_DeepPanda",
+						"Derusbi_Gen",
+						"Codoso_PlugX_3",
+						"Codoso_PlugX_2",
+						"Codoso_CustomTCP_4",
+						"Codoso_CustomTCP_3",
+						"Codoso_CustomTCP_2",
+						"Codoso_PGV_PVID_6",
+						"Codoso_Gh0st_3",
+						"Codoso_Gh0st_2",
+						"Derusbi_XOR_4byte_Key",
+						"OPSled"
+					]
+			},
+			{
+				"rule": "pdf_file",
+				"run":
+					[
+						"nonPE_embedded_exe"
+					]
+			},
+			{
+				"rule": "zip_file",
+				"run":
+					[
+						"nonPE_embedded_exe"
+					]
+			}
+		]
+}
